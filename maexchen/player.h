@@ -8,9 +8,8 @@ public:
 	void setName(std::string name) { this->name = name; }
 	int wuerfeln();
 private:
-	std::string name;
-	int pPoints;
-	int nPoints;
-	bool aussage;
+	std::string name = "";
+	int nPoints = 0;
+	bool aussage = true;
 };
 

@@ -2,11 +2,16 @@
 //
 
 #include <iostream>
+#include <ctime>
+
 #include "game.h"
 #include "player.h"
 #include "computer.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    srand(time(NULL));
+
+    game* Spiel = new game();
+    //std::cout << "Hello World!\n";
 }
